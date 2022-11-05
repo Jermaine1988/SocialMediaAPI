@@ -1,7 +1,37 @@
 # SocialMediaAPI
-# Description
-A REST API for Social media app using MongoDB and Mongoose.
+An API for a social network startup that uses MongoDB, Node.js, Express, and Mongoose. The api allows users to create a profile, post thoughts and react to other user's posts.
 
 # User Story
-As a social media startup, I want an API for my social network that uses a NoSQL database so that my website can handle large amounts of unstructured data.
+AS A social media startup
+I WANT an API for my social network that uses a NoSQL database
+SO THAT my website can handle large amounts of unstructured data
 
+# Acceptance Criteria
+GIVEN a social network API </br>
+WHEN I enter the command to invoke the application</br>
+THEN my server is started and the Mongoose models are synced to the MongoDB database</br>
+WHEN I open API GET routes in Insomnia for users and thoughts</br>
+THEN the data for each of these routes is displayed in a formatted JSON</br>
+WHEN I test API POST, PUT, and DELETE routes in Insomnia</br>
+THEN I am able to successfully create, update, and delete users and thoughts in my database</br>
+WHEN I test API POST and DELETE routes in Insomnia</br>
+THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list</br>
+
+# Installation
+    Clone repo
+    Install dependencies
+    npm start to run the server
+
+# Walkthrough Video
+Click here:
+https://drive.google.com/file/d/1-VXdGvU1-DQwyUVYoWophFa_EtGyBGC8/view?usp=share_link
+
+# Technologies Used
+* Express
+* MongoDB
+* Mongoose
+* Node.js
+* JavaScript 
+
+# Creator
+    Jermaine Joseph
