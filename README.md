@@ -19,7 +19,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 # Installation
     Clone repo
-    Install dependencies
+    npm i 
     npm start to run the server
 
 # Walkthrough Video
